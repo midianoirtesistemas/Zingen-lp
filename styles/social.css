@@ -1,0 +1,43 @@
+a.social {
+  --bg-img:"";
+  background-image: var(--bg-img);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+
+  -webkit-background-clip: initial;
+  background-clip: initial;
+
+  /* aplica-se ao elemento que estiver com 'aria-label' com "TikTok" */
+  &[aria-label="TikTok"]{
+  --bg-img: url(../assets/icons/ic_tiktok.svg);
+    &:hover{
+    --bg-img: url(../assets/icons/ic_hover-tiktok.svg);
+    }
+  }
+
+  /* aplica-se ao elemento que estiver com 'aria-label' com "Instagram" */
+  &[aria-label="Instagram"]{
+    --bg-img: url(../assets/icons/instagram.svg);
+      &:hover{
+      --bg-img: url(../assets/icons/instagram-hover.svg);
+      }
+  }
+
+  /* aplica-se ao elemento que estiver com 'aria-label' com "Twitter" */
+  &[aria-label="Twitter"]{
+    --bg-img: url(../assets/icons/twitter.svg);
+      &:hover{
+      --bg-img: url(../assets/icons/twitter-hover.svg);
+      }
+  }
+
+  /* aplica-se ao elemento que estiver com 'aria-label' com "Discord" */
+  &[aria-label="Discord"]{
+    --bg-img: url(../assets/icons/discord.svg);
+      &:hover{
+      --bg-img: url(../assets/icons/discord-hover.svg);
+      }
+  }  
+
+}
