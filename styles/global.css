@@ -97,6 +97,12 @@ img {
   display: inline-block;
 }
 
+.section-title {
+  display: block;
+  text-align: center;
+  margin-top: 4rem;
+}
+
 /* Responsividade em 1280px = 80 x 16 */
 @media (width >= 80rem) {
   :root {

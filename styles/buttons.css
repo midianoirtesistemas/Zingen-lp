@@ -51,7 +51,7 @@
     position: absolute;
     /* herda a borda do style principal da classe '.btn' */
     border-radius: inherit;
-    inset: 1.5px;
+    inset: 1px;
     background-color: var(--bg-color);
 
   }
